@@ -51,7 +51,7 @@ namespace Principal
             }
             
             // Mostramos a distancia total percorrida
-            Console.WriteLine($"A distância percorrida no no percurso é de {distanciaTotal}");
+            Console.WriteLine($"A distância percorrida no percurso é de {distanciaTotal}");
         }
     }
 }
