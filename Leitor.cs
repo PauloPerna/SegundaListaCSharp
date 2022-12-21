@@ -56,8 +56,8 @@ namespace Principal
             if(!csv.Read())
                 return new int[0] {};
 
-            // Código semelhante ao feito em aula
-            // Temos como premissa de que a matriz será quadrada
+            // Essa leitura será mais simples, pois faremos
+            // apenas a primeira linha
             var numColunas = csv.Record.Length;
             var percurso = new int[numColunas];
             // Preenchemos o array percurso com os valores
